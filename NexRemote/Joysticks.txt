@@ -1,0 +1,33 @@
+--------------------------------------------------------------------------------
+** Warning **
+
+If you choose to edit your Joysticks.ini file, make sure you make a backup:
+If you re-install or upgrade to a new version of NexRemote, the Joysticks.ini
+file will be overwritten.  
+--------------------------------------------------------------------------------
+
+The Joysticks.ini file contains all of the Joysticks currently supported by NexRemote, as well as their button and joystick definitions
+Each Unique Joystick must have a [JOYSTICK] section and must have Name=
+parameter.  The name must be exactly as what is shown in the joystick menu of NexRemote.
+Each line contains either a Button = Function statement or
+                          an Axis  = Function Statement
+Buttons or Axis without a function means they will be inactive 
+Comments can be added at the end by using a ; followed by text
+
+The list of Button functions is identical to the functions listed
+within Keyboards.txt
+One of the Buttons can also have a function of SHIFT meaning that it will be reserved as a Shift key, possibly doubling the functionality of the other buttons.
+For shifted functionality, use sButton# = 
+
+For the Joystick(s), you may define them by using Axis1 through Axis8
+Note that the Buttons and the Axis are predefined by the Gamepad
+manufacturer and may differ between them.
+
+The following functions may be defined to an Axis
+
+ScopeX    - Means move the scope Left or Right
+ScopeY    - Means move the scope Up or Down
+
+
+At run time, NexRemote will use whatever joystick has been selected in the menu and load the corresponding [JOYSTICK] entry from the Joysticks.ini file
+(based on the Name)

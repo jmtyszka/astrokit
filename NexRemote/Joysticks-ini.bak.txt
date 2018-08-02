@@ -1,0 +1,173 @@
+[JOYSTICKS]
+
+[JOYSTICK]
+Name = Xbox One Wireless
+; This is the Xbox 360 Wireless Gamepad
+Button1 = RateUp ;Button 3
+Button2 = MenuUp ;Button 4
+Button3 = RateDown ;Button 1
+Button4 = MenuDown ;Button 2
+Button5 = Align ;Button 5
+Button6 = Info ;Button 6
+Button7 = Shift ;Button 9 (Left Fire)
+Button8 = Enter ;Button 8 (Right Fire)
+Button9 =
+Button10 =
+Button11 =
+sButton1 = SelectionUp ;Shift+Button 1
+sButton2 = TourUp ;Shift+Button 2
+sButton3 = Select ;Shift+Button 3
+sButton4 = TourDown ;Shift+Button 4
+sButton5 = ;Shift+Button 5
+sButton6 = ;Shift+Button 6
+sButton7 = ;Shift+Button 7 (Left Fire)
+sButton8 = Undo ;Button 7 (Right Fire)
+sButton9 =
+sButton10 =
+sButton11 =
+Axis1 = ScopeX ;Joystick1 X
+Axis2 = ScopeY ;Joystick1 Y
+Axis3 = ;Joystick2 Y
+Axis4 =
+Axis5 =
+Axis6 = ;Joystick2 X
+Axis7 =
+Axis8 =
+
+[JOYSTICK]
+   Name        = WingMan Cordless Gamepad
+               ; This is the original Logitech Wireless Rumblepad
+   Button1     = RateDown     ;Button A
+   Button2     = Select       ;Button B
+   Button3     = MenuDown     ;Button C
+   Button4     = RateUp       ;Button X
+   Button5     = SelectionUp  ;Button Y
+   Button6     = MenuUp       ;Button Z
+   Button7     = Align        ;Button L1
+   Button8     = Enter        ;Button R1
+   Button9     = Shift        ;Button Start
+   Button10    = Info         ;Button L2
+   Button11    = Undo         ;Button R2
+   sButton1    = TourDown     ;Shift+Button A
+   sButton2    =              ;Shift+Button B
+   sButton3    =              ;Shift+Button C
+   sButton4    = TourUp       ;Shift+Button X
+   sButton5    =              ;Shift+Button Y
+   sButton6    =              ;Shift+Button Z
+   sButton7    =              ;Shift+Button L1
+   sButton8    =              ;Shift+Button R1
+   sButton9    =              ;Shift+Button Start
+   sButton10   =              ;Shift+Button L2
+   sButton11   =              ;Shift+Button R2
+   Axis1       =              ;Joystick1 X
+   Axis2       =              ;Joystick1 Y
+   Axis3       =
+   Axis4       =
+   Axis5       =
+   Axis6       = ScopeX       ;Joystick2 X
+   Axis7       = ScopeY       ;Joystick2 Y
+   Axis8       =
+
+[JOYSTICK]
+   Name        = Cordless RumblePad 2
+               ; This is the newer Logitech Wireless Rumblepad2
+   Button1     = RateUp       ;Button 1
+   Button2     = RateDown     ;Button 2
+   Button3     = MenuDown     ;Button 3
+   Button4     = MenuUp       ;Button 4
+   Button5     = Align        ;Button 5
+   Button6     = Enter        ;Button 6
+   Button7     = Info         ;Button 7
+   Button8     = Undo         ;Button 8
+   Button9     = Shift        ;Button 9
+   Button10    =              ;Button 10
+   Button11    =              ;Joystick1 Down
+   Button12    =              ;Joystick2 Down
+   sButton1    = SelectionUp  ;Shift+Button 1
+   sButton2    = Select       ;Shift+Button 2
+   sButton3    = TourDown     ;Shift+Button 3
+   sButton4    = TourUp       ;Shift+Button 4
+   sButton5    =              ;Shift+Button 5
+   sButton6    =              ;Shift+Button 6
+   sButton7    =              ;Shift+Button 7
+   sButton8    =              ;Shift+Button 8
+   sButton9    =              ;Shift+Button 9 
+   sButton10   =              ;Shift+Button 10
+   sButton11   =              ;Shift+Joystick1 Down
+   sButton12   =              ;Shift+Joystick2 Down
+   Axis1       =              ;Joystick1 X
+   Axis2       =              ;Joystick1 Y
+   Axis3       = ScopeX       ;Joystick2 X
+   Axis4       =
+   Axis5       =
+   Axis6       = ScopeY       ;Joystick2 Y
+   Axis7       =
+   Axis8       =
+
+[JOYSTICK]
+   Name        = Wingman RumblePad USB
+               ; This is the USB Wired Logitech Rumblepad
+   Button1     = RateDown     ;Button A
+   Button2     = Select       ;Button B
+   Button3     = MenuDown     ;Button C
+   Button4     = RateUp       ;Button X
+   Button5     = SelectionUp  ;Button Y
+   Button6     = MenuUp       ;Button Z
+   Button7     = Align        ;Button L1
+   Button8     = Enter        ;Button R1
+   Button9     = Shift        ;Button Start
+   Button10    = 
+   Button11    = 
+   sButton1    = TourDown     ;Shift+Button A
+   sButton2    =              ;Shift+Button B
+   sButton3    =              ;Shift+Button C
+   sButton4    = TourUp       ;Shift+Button X
+   sButton5    =              ;Shift+Button Y
+   sButton6    =              ;Shift+Button Z
+   sButton7    = Info         ;Shift+Button L1
+   sButton8    = Undo         ;Shift+Button R1
+   sButton9    =              ;Shift+Button Start
+   sButton10   =
+   sButton11   =
+   Axis1       =              ;Joystick1 X
+   Axis2       =              ;Joystick1 Y
+   Axis3       =
+   Axis4       =
+   Axis5       =
+   Axis6       = ScopeX       ;Joystick2 X
+   Axis7       = ScopeY       ;Joystick2 Y
+   Axis8       =
+
+[JOYSTICK]
+   Name        = Saitek P3000 Wireless Pad
+               ; This is the Saitek P3000 Wireless Gamepad
+   Button1     = RateUp       ;Button 1
+   Button2     = MenuUp       ;Button 2
+   Button3     = RateDown     ;Button 3
+   Button4     = MenuDown     ;Button 4
+   Button5     = Align        ;Button 5
+   Button6     = Info         ;Button 6
+   Button7     = Shift        ;Button 7 (Left Fire)
+   Button8     = Enter        ;Button 8 (Right Fire)
+   Button9     = 
+   Button10    = 
+   Button11    = 
+   sButton1    = SelectionUp  ;Shift+Button 1
+   sButton2    = TourUp       ;Shift+Button 2
+   sButton3    = Select       ;Shift+Button 3
+   sButton4    = TourDown     ;Shift+Button 4
+   sButton5    =              ;Shift+Button 5
+   sButton6    =              ;Shift+Button 6
+   sButton7    =              ;Shift+Button 7 (Left Fire)
+   sButton8    = Undo         ;Shift+Button 8 (Right Fire)
+   sButton9    =
+   sButton10   =
+   sButton11   =
+   Axis1       =              ;Joystick1 X
+   Axis2       =              ;Joystick1 Y
+   Axis3       = ScopeY       ;Joystick2 Y
+   Axis4       =
+   Axis5       =
+   Axis6       = ScopeX       ;Joystick2 X
+   Axis7       = 
+   Axis8       =

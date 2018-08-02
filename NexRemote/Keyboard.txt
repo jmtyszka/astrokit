@@ -1,0 +1,84 @@
+--------------------------------------------------------------------------------
+** Warning **
+
+If you choose to edit your Keyboard.ini file, make sure you make a backup:
+If you re-install or upgrade to a new version of NexRemote, the Keyboard.ini
+file will be overwritten.  
+--------------------------------------------------------------------------------
+
+The Keyboard.ini file contains all of the keyboard function definitions.
+Each line contains a Key = Function statement
+Comments can be added at the end by using a ; followed by text
+Note that only keys that are on the bottom row of a keyboard are accepted
+  ie we do not differentiate between a and A
+
+List of Valid Keys:
+
+0 through 9
+A through Z
+one of [];`',./\
+F1 through F12
+Esc
+Space
+PageUp
+PageDown
+End
+Home
+Left
+Up
+Right
+Down
+Ins
+Del
+Tab
+Backspace
+Enter
+Equal
+Hyphen
+ScrollLock
+CapsLock
+NumLock
+NumEnter
+Num0 through Num9
+Num*
+Num-
+Num.
+Num/
+Note that any of the above can be prefixed by:
+Shift-, Ctrl-, or Alt-
+ie Ctrl-Alt-Z
+
+List of valid Functions:
+
+Align          - Align Key
+Enter          - Enter Key
+Undo           - Undo Key
+Up             - Move Scope Up at current Rate
+Right          - Move Scope Right at current Rate
+Down           - Move Scope Down at current Rate
+Left           - Move Scope Left at current Rate
+FastUp         - Move Scope Up at Rate 9
+FastRight      - Move Scope Right at Rate 9
+FastDown       - Move Scope Down at Rate 9
+FastLeft       - Move Scope Left at Rate 9
+Key1           - 1 Key
+Key2           - 2 Key
+Key3           - 3 Key
+Key4           - 4 Key
+Key5           - 5 Key
+Key6           - 6 Key
+Key7           - 7 Key
+Key8           - 8 Key
+Key9           - 9 Key
+Key0           - 0 Key
+Info           - Info Key
+Rate           - Rate Key
+RateUp         - Increment Current rate by 1
+RateDown       - Decrement Current Rate by 1
+SelectionUp    - Increment Current Selection by 1
+SelectionDown  - Decrement Current Selection by 1
+Select         - Execute Current Selection
+MenuUp         - Scroll Menu Up (same as Key6)
+MenuDown       - Scroll Menu Down (same as Key9)
+TourUp         - Increment Current Tour by 1
+TourDown       - Decrement Current Tour by 1
